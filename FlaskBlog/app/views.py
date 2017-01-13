@@ -6,13 +6,13 @@
 from app import appweb,db
 from flask import render_template,url_for,session,redirect
 
-@appweb.route('/home')
-@appweb.route('/')
+@appweb.route('/base')
 def home():
-    return render_template('home.html')
+    return render_template('base.html')
 
 
 @appweb.route('/project')
+@appweb.route('/')
 def project():
     return render_template('project.html')
 
@@ -25,3 +25,5 @@ def article():
 @appweb.route('/note')
 def note():
     return render_template('note.html')
+
+# @appweb.route('/imagaUpload')

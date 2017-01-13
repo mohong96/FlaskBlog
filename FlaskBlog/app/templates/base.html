@@ -1,92 +1,131 @@
-<!DOCTYPE HTML>
-<!--
+<!DOCTYPE html>
+    <!--
 	DylanBlog
 	started at 2016/10
+    -->
+<html lang="zh-cn" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="pragma" content="no-store">
+    <title>Avalon</title>
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="../static/dist/css/bootstrap.min.css">
+
+    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <!--ckeditor base js-->
+    <script src="../static/ckeditor/ckeditor.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body style="background-color: gainsboro">
+    <!--导航条-->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">Dylan's Home</a>
+        </div>
+        <!--TODO:添加导航按钮的链接网址-->
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">home</a> </li>
+              <li><a href="#">project</a></li>
+              <li><a href="#">article</a></li>
+              <li><a href="#">note</a></li>
+          </ul>
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!--project-->
+    <!--{% block content %}-->
+        <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-offset-1 col-md-7 col-lg-offset-1 col-lg-7">
+                <section class="thumbnail">
+                    <article class="page-header">
+                        <div class="row">
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12"><h2 class="text-center">page header</h2></div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 img-thumbnail">
+                                2017/1/1<br/>
+                            </div>
+                        </div>
+                    </article>
+                    <p><a href="#" class="btn btn-primary" role="button">read it</a></p>
+                </section>
+<!--TODO:待定
+                <div class="thumbnail">
+                    <div class="page-header"><a href="#"><img data-src="holder.js/300x300" src="../static/images/pic03.jpg"></a></div>
+                    <h5>...</h5>
+                    <p><a href="#" class="btn btn-primary" role="button">read it</a></p>
+                </div>
 -->
-<html>
-	<head>
-		<title>Dylan Blog</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="../static/assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="../static/assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="../static/assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="../static/assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
+            </div>
+            <div class="col-xs-12 col-lg-3 col-md-3 thumbnail" style="background-color:white">
+                <section>
+                    <h1>Heading</h1>
+                    <p>Tagline</p>
+                    <p><a class="btn btn-primary btn-large">Learn more</a></p>
+                </section>
+            </div>
+        </div>
+        </div>
+    <!--{% endblock %}-->
 
-		<!-- Header -->
-			<div id="header">
+    <!--note-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <section class="thumbnail">
 
-				<div class="top">
+                        <h4>不要和其他组件混合使用</h4>
+                        <p>sss</p>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="image avatar48"><img src="../static/images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Dylan</h1>
-							<p>CSU University</p>
-							<p>keep learning,special thinking represents ability</p>
-						</div>
+                    </section>
+                </div>
+            </div>
+        </div>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<!--
+    <!--ckeditor-->
+        <div class="container-fluid">
+            <div class="row">
+        <form class="col-lg-8 col-md-8">
+            <textarea name="editor1" id="editor1" rows="10" cols="80">
+                This is my textarea to be replaced with CKEditor.
+            </textarea>
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using the custom config
+                // 由于ckeditor自动连接它的js文件，因此路径在/ckeditor路径下
+                CKEDITOR.replace( 'editor1',{customConfig: 'article-config.js'});
+            </script>
+        </form>
+            </div>
+        </div>
+    <footer>
+        <div id="footer">
+            <p class="modal-footer">&copy;Dylan's Blog.Code:python</p>
+        </div>
 
-								Prologue's nav expects links in one of two formats:
-
-								1. Hash link (scrolls to a different section within the page)
-
-								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
-
-								2. Standard link (sends the user to another page/site)
-
-								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
-
-							-->
-							<ul>
-								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Home</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Project</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-book">Article</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-sticky-note">Note</span></a></li>
-							</ul>
-						</nav>
-
-				</div>
-
-				<div class="bottom">
-
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="#" class="icon fa-mobile-phone"><span class="label">Phone</span></a></li>
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-
-				</div>
-
-			</div>
-
-		<!-- Main -->
-		{% block content %}
-		{% endblock %}
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-					<ul class="copyright">
-						<li>&copy; Flask reserved.</li><li>Code:python</li>
-					</ul>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="../static/assets/js/jquery.min.js"></script>
-			<script src="../static/assets/js/jquery.scrolly.min.js"></script>
-			<script src="../static/assets/js/jquery.scrollzer.min.js"></script>
-			<script src="../static/assets/js/skel.min.js"></script>
-			<script src="../static/assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="../static/assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="../static/assets/js/main.js"></script>
-
-	</body>
+    </footer>
+  </body>
 </html>
