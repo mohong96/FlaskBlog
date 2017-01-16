@@ -15,7 +15,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/FlaskBlog$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1483203319712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
-    <SUITE FILE_PATH="coverage/FlaskBlog$run.coverage" NAME="run Coverage Results" MODIFIED="1483206281614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/FlaskBlog$run.coverage" NAME="run Coverage Results" MODIFIED="1484497460184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.2715311">
+              <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
               <folding>
                 <element signature="e#35#60#0" expanded="true" />
               </folding>
@@ -38,71 +38,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41854638">
-              <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+            <state vertical-scroll-proportion="-13.605263">
+              <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/home.html">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding>
+                <element signature="e#32#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/project.html">
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/run.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/article.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="note.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/note.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,17 +85,18 @@
       <list>
         <option value="$PROJECT_DIR$/requirements" />
         <option value="$PROJECT_DIR$/app/models.py" />
-        <option value="$PROJECT_DIR$/ENV/Lib/site-packages/flask/helpers.py" />
-        <option value="$PROJECT_DIR$/app/run.py" />
-        <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/app/config.py" />
         <option value="$PROJECT_DIR$/app/templates/home.html" />
-        <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/templates/project.html" />
         <option value="$PROJECT_DIR$/app/templates/article.html" />
         <option value="$PROJECT_DIR$/app/templates/note.html" />
         <option value="$PROJECT_DIR$/app/forms.py" />
+        <option value="$PROJECT_DIR$/app/static/ckeditor/article-config.js" />
+        <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/ENV/Lib/site-packages/flask/helpers.py" />
+        <option value="$PROJECT_DIR$/app/run.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
       </list>
     </option>
   </component>
@@ -189,16 +152,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -270,22 +223,36 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.TemplateLanguageModulesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="F:/FlaskTest" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/FlaskBlog/ENV/Lib/site-packages/flask/helpers.py" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\FlaskBlog\app\templates" />
       <recent name="F:\FlaskBlog\app\static" />
       <recent name="F:\FlaskBlog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\FlaskBlog\app\imm" />
     </key>
   </component>
   <component name="RunManager" selected="Python.run">
@@ -525,6 +492,10 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -537,29 +508,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14930183" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798165" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3216971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32790697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973147" sideWeight="0.49541286" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973147" sideWeight="0.5045872" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4162844" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912844" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32906976" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -575,11 +556,68 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -602,7 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +661,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -663,50 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/flask/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.3507283">
-          <caret line="932" column="28" selection-start-line="932" selection-start-column="28" selection-end-line="932" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/note.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,25 +706,637 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/note.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/ckeditor/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1952381">
+          <caret line="62" column="70" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/1517302078/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.091653">
+          <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/ckeditor/article-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="48" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7631579">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.210526">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/SocketServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3319239">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/imm/20170114164152.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/imm/20170114164835.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/flask/globals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/ckeditor/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47129187">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/flask.app.Flask">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>flask.app.Flask</OriginalElement>
+          <nodes>
+            <node x="" y="">_abcoll.Callable</node>
+            <node x="" y="">_abcoll.Hashable</node>
+            <node x="" y="">object</node>
+            <node x="" y="">flask.helpers._PackageBoundObject</node>
+            <node x="" y="">flask.app.Flask</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="277.0" y="150.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/Werkzeug-0.11.15.dist-info/DESCRIPTION.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4569378">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/werkzeug.wrappers.BaseRequest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>werkzeug.wrappers.BaseRequest</OriginalElement>
+          <nodes>
+            <node x="" y="">werkzeug.wrappers.BaseRequest</node>
+            <node x="" y="">_abcoll.Hashable</node>
+            <node x="" y="">object</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="290.0" y="793.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#F:/FlaskBlog/ENV/Lib/site-packages/flask">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#F:/FlaskBlog/ENV/Lib/site-packages/flask</OriginalElement>
+          <nodes>
+            <node x="" y="">flask.config.ConfigAttribute</node>
+            <node x="" y="">flask.debughelpers.UnexpectedUnicodeError</node>
+            <node x="" y="">flask.cli.DispatchingApp</node>
+            <node x="" y="">werkzeug.wrappers.BaseResponse</node>
+            <node x="" y="">click.core.Command</node>
+            <node x="" y="">click.core.MultiCommand</node>
+            <node x="" y="">werkzeug.wrappers.ETagResponseMixin</node>
+            <node x="" y="">UnicodeError</node>
+            <node x="" y="">dict</node>
+            <node x="" y="">_abcoll.Sequence</node>
+            <node x="" y="">werkzeug.datastructures.UpdateDictMixin</node>
+            <node x="" y="">DeprecationWarning</node>
+            <node x="" y="">werkzeug.wrappers.Request</node>
+            <node x="" y="">flask.cli.FlaskGroup</node>
+            <node x="" y="">flask.views.MethodView</node>
+            <node x="" y="">werkzeug.wrappers.CommonResponseDescriptorsMixin</node>
+            <node x="" y="">flask.exthook.ExtensionImporter</node>
+            <node x="" y="">flask.debughelpers.FormDataRoutingRedirect</node>
+            <node x="" y="">flask.cli.AppGroup</node>
+            <node x="" y="">flask.config.Config</node>
+            <node x="" y="">click.core.Group</node>
+            <node x="" y="">Exception</node>
+            <node x="" y="">werkzeug.wrappers.BaseRequest</node>
+            <node x="" y="">werkzeug.wrappers.Response</node>
+            <node x="" y="">flask.sessions.NullSession</node>
+            <node x="" y="">flask.signals._FakeSignal</node>
+            <node x="" y="">flask.sessions.SecureCookieSession</node>
+            <node x="" y="">flask.debughelpers.DebugFilesKeyError</node>
+            <node x="" y="">object</node>
+            <node x="" y="">werkzeug.wrappers.ETagRequestMixin</node>
+            <node x="" y="">flask.helpers._PackageBoundObject</node>
+            <node x="" y="">jinja2.loaders.BaseLoader</node>
+            <node x="" y="">flask.json.JSONDecoder</node>
+            <node x="" y="">flask.exthook.ExtDeprecationWarning</node>
+            <node x="" y="">_abcoll.Iterable</node>
+            <node x="" y="">type</node>
+            <node x="" y="">flask.cli.ScriptInfo</node>
+            <node x="" y="">LookupError</node>
+            <node x="" y="">Warning</node>
+            <node x="" y="">_abcoll.Iterator</node>
+            <node x="" y="">ResponseBase</node>
+            <node x="" y="">flask.views.MethodViewType</node>
+            <node x="" y="">click.core.BaseCommand</node>
+            <node x="" y="">jinja2.environment.Environment</node>
+            <node x="" y="">flask.sessions.TaggedJSONSerializer</node>
+            <node x="" y="">werkzeug.wrappers.WWWAuthenticateMixin</node>
+            <node x="" y="">BaseEnvironment</node>
+            <node x="" y="">werkzeug.test.Client</node>
+            <node x="" y="">ValueError</node>
+            <node x="" y="">werkzeug.wrappers.CommonRequestDescriptorsMixin</node>
+            <node x="" y="">RequestBase</node>
+            <node x="" y="">flask.cli.NoAppException</node>
+            <node x="" y="">KeyError</node>
+            <node x="" y="">flask.ctx.AppContext</node>
+            <node x="" y="">flask.templating.Environment</node>
+            <node x="" y="">_abcoll.Container</node>
+            <node x="" y="">_abcoll.Callable</node>
+            <node x="" y="">flask.ctx.RequestContext</node>
+            <node x="" y="">werkzeug.datastructures.CallbackDict</node>
+            <node x="" y="">flask.wrappers.Response</node>
+            <node x="" y="">flask.testing.FlaskClient</node>
+            <node x="" y="">flask.ctx._AppCtxGlobals</node>
+            <node x="" y="">StandardError</node>
+            <node x="" y="">flask.blueprints.Blueprint</node>
+            <node x="" y="">_abcoll.Mapping</node>
+            <node x="" y="">flask.sessions.SessionInterface</node>
+            <node x="" y="">click.exceptions.ClickException</node>
+            <node x="" y="">werkzeug.wrappers.ResponseStreamMixin</node>
+            <node x="" y="">flask.signals.Namespace</node>
+            <node x="" y="">flask.sessions.SecureCookieSessionInterface</node>
+            <node x="" y="">flask.helpers.locked_cached_property</node>
+            <node x="" y="">flask.app.Flask</node>
+            <node x="" y="">flask.json.JSONEncoder</node>
+            <node x="" y="">flask.blueprints.BlueprintSetupState</node>
+            <node x="" y="">flask.templating.DispatchingJinjaLoader</node>
+            <node x="" y="">BaseException</node>
+            <node x="" y="">flask._compat._Mgr</node>
+            <node x="" y="">_abcoll.Sized</node>
+            <node x="" y="">werkzeug.wrappers.AuthorizationMixin</node>
+            <node x="" y="">_abcoll.Hashable</node>
+            <node x="" y="">werkzeug.wrappers.AcceptMixin</node>
+            <node x="" y="">werkzeug.wrappers.UserAgentMixin</node>
+            <node x="" y="">flask.sessions.SessionMixin</node>
+            <node x="" y="">flask.views.View</node>
+            <node x="" y="">click.exceptions.UsageError</node>
+            <node x="" y="">AssertionError</node>
+            <node x="" y="">flask.wrappers.Request</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.1" x="10112.0" y="5085.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/flask/ext/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21411483">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://AlchemyModelDependency/#FlaskBlog">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>AlchemyModelDependency</ID>
+          <OriginalElement>#FlaskBlog</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="788.0" y="405.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#F:/FlaskBlog/ENV/Lib/site-packages/werkzeug">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#F:/FlaskBlog/ENV/Lib/site-packages/werkzeug</OriginalElement>
+          <nodes>
+            <node x="" y="">werkzeug.exceptions.Unauthorized</node>
+            <node x="" y="">UnicodeWarning</node>
+            <node x="" y="">werkzeug.local.LocalProxy</node>
+            <node x="" y="">werkzeug.wrappers.PlainRequest</node>
+            <node x="" y="">werkzeug.contrib.wrappers.ReverseSlashBehaviorRequestMixin</node>
+            <node x="" y="">werkzeug.routing.RuleTemplateFactory</node>
+            <node x="" y="">werkzeug.contrib.iterio.IterI</node>
+            <node x="" y="">werkzeug.exceptions.Aborter</node>
+            <node x="" y="">werkzeug.contrib.iterio.IterO</node>
+            <node x="" y="">werkzeug.debug.console._InteractiveConsole</node>
+            <node x="" y="">werkzeug.exceptions.RequestURITooLarge</node>
+            <node x="" y="">werkzeug._reloader.ReloaderLoop</node>
+            <node x="" y="">werkzeug.local.LocalManager</node>
+            <node x="" y="">werkzeug.contrib.lint.HTTPWarning</node>
+            <node x="" y="">werkzeug.contrib.sessions.ModificationTrackingDict</node>
+            <node x="" y="">werkzeug.debug.console.Console</node>
+            <node x="" y="">werkzeug.utils.cached_property</node>
+            <node x="" y="">werkzeug.serving._SslDummy</node>
+            <node x="" y="">werkzeug.datastructures.ImmutableMultiDict</node>
+            <node x="" y="">werkzeug.contrib.testtools.ContentAccessors</node>
+            <node x="" y="">werkzeug.contrib.fixers.PathInfoFromRequestUriFix</node>
+            <node x="" y="">werkzeug.debug.tbtools.Traceback</node>
+            <node x="" y="">werkzeug.useragents.UserAgent</node>
+            <node x="" y="">werkzeug.datastructures.IfRange</node>
+            <node x="" y="">werkzeug.wrappers.ETagRequestMixin</node>
+            <node x="" y="">werkzeug.wrappers.BaseRequest</node>
+            <node x="" y="">werkzeug.exceptions.RequestEntityTooLarge</node>
+            <node x="" y="">werkzeug.contrib.wrappers.DynamicCharsetRequestMixin</node>
+            <node x="" y="">werkzeug.contrib.cache.NullCache</node>
+            <node x="" y="">werkzeug.contrib.fixers.ProxyFix</node>
+            <node x="" y="">werkzeug.routing.Submount</node>
+            <node x="" y="">Warning</node>
+            <node x="" y="">werkzeug.serving._SSLContext</node>
+            <node x="" y="">property</node>
+            <node x="" y="">_abcoll.Container</node>
+            <node x="" y="">werkzeug.module</node>
+            <node x="" y="">werkzeug.contrib.testtools.TestResponse</node>
+            <node x="" y="">werkzeug.contrib.sessions.Session</node>
+            <node x="" y="">werkzeug.routing.BuildError</node>
+            <node x="" y="">werkzeug.debug.console.ThreadedStream</node>
+            <node x="" y="">werkzeug.debug.tbtools.Frame</node>
+            <node x="" y="">werkzeug.contrib.lint.GuardedWrite</node>
+            <node x="" y="">werkzeug.wsgi.LimitedStream</node>
+            <node x="" y="">werkzeug.wrappers.Request</node>
+            <node x="" y="">werkzeug.utils.HTMLBuilder</node>
+            <node x="" y="">werkzeug.contrib.securecookie.UnquoteError</node>
+            <node x="" y="">werkzeug.exceptions.NotImplemented</node>
+            <node x="" y="">werkzeug.exceptions.ExpectationFailed</node>
+            <node x="" y="">werkzeug.routing.Map</node>
+            <node x="" y="">werkzeug.datastructures.FileStorage</node>
+            <node x="" y="">werkzeug.routing.RequestSlash</node>
+            <node x="" y="">werkzeug.debug.DebuggedApplication</node>
+            <node x="" y="">werkzeug.routing.NumberConverter</node>
+            <node x="" y="">_abcoll.Iterable</node>
+            <node x="" y="">werkzeug.datastructures.Authorization</node>
+            <node x="" y="">werkzeug.datastructures.ResponseCacheControl</node>
+            <node x="" y="">werkzeug.wrappers.Response</node>
+            <node x="" y="">werkzeug.wrappers.CommonResponseDescriptorsMixin</node>
+            <node x="" y="">werkzeug.contrib.cache.MemcachedCache</node>
+            <node x="" y="">werkzeug.exceptions.GatewayTimeout</node>
+            <node x="" y="">werkzeug.exceptions.BadRequest</node>
+            <node x="" y="">werkzeug.routing.FloatConverter</node>
+            <node x="" y="">werkzeug.routing.RuleTemplate</node>
+            <node x="" y="">werkzeug.datastructures.ImmutableOrderedMultiDict</node>
+            <node x="" y="">werkzeug.contrib.cache.FileSystemCache</node>
+            <node x="" y="">werkzeug.contrib.profiler.ProfilerMiddleware</node>
+            <node x="" y="">werkzeug.serving.WSGIRequestHandler</node>
+            <node x="" y="">werkzeug.datastructures.CombinedMultiDict</node>
+            <node x="" y="">LookupError</node>
+            <node x="" y="">list</node>
+            <node x="" y="">werkzeug.exceptions.MethodNotAllowed</node>
+            <node x="" y="">werkzeug.exceptions.NotAcceptable</node>
+            <node x="" y="">werkzeug.exceptions.ClientDisconnected</node>
+            <node x="" y="">werkzeug.datastructures.Range</node>
+            <node x="" y="">werkzeug.datastructures.TypeConversionDict</node>
+            <node x="" y="">werkzeug.datastructures.FileMultiDict</node>
+            <node x="" y="">werkzeug.test._TestCookieResponse</node>
+            <node x="" y="">werkzeug.test.ClientRedirectError</node>
+            <node x="" y="">werkzeug.contrib.wrappers.JSONRequestMixin</node>
+            <node x="" y="">werkzeug.urls.BaseURL</node>
+            <node x="" y="">werkzeug.contrib.wrappers.RoutingArgsRequestMixin</node>
+            <node x="" y="">werkzeug.wrappers.WWWAuthenticateMixin</node>
+            <node x="" y="">werkzeug.contrib.lint.InputStream</node>
+            <node x="" y="">werkzeug.contrib.sessions.FilesystemSessionStore</node>
+            <node x="" y="">werkzeug.datastructures.ETags</node>
+            <node x="" y="">werkzeug.datastructures.RequestCacheControl</node>
+            <node x="" y="">werkzeug.routing.Subdomain</node>
+            <node x="" y="">BaseException</node>
+            <node x="" y="">werkzeug.test._TestCookieJar</node>
+            <node x="" y="">werkzeug.filesystem.BrokenFilesystemWarning</node>
+            <node x="" y="">werkzeug.datastructures.CallbackDict</node>
+            <node x="" y="">werkzeug.routing.RoutingException</node>
+            <node x="" y="">werkzeug._internal._Missing</node>
+            <node x="" y="">_abcoll.Mapping</node>
+            <node x="" y="">werkzeug.debug.repr._Helper</node>
+            <node x="" y="">werkzeug.routing.MapAdapter</node>
+            <node x="" y="">Exception</node>
+            <node x="" y="">werkzeug.datastructures._CacheControl</node>
+            <node x="" y="">werkzeug.wrappers.CommonRequestDescriptorsMixin</node>
+            <node x="" y="">werkzeug.contrib.cache.SimpleCache</node>
+            <node x="" y="">werkzeug.datastructures.UpdateDictMixin</node>
+            <node x="" y="">ThreadingMixIn</node>
+            <node x="" y="">werkzeug.contrib.cache.BaseCache</node>
+            <node x="" y="">ImportError</node>
+            <node x="" y="">werkzeug.exceptions.LengthRequired</node>
+            <node x="" y="">werkzeug.contrib.wrappers.ProtobufRequestMixin</node>
+            <node x="" y="">werkzeug.routing.PathConverter</node>
+            <node x="" y="">werkzeug.exceptions.RequestedRangeNotSatisfiable</node>
+            <node x="" y="">werkzeug.exceptions.Forbidden</node>
+            <node x="" y="">werkzeug.exceptions.BadGateway</node>
+            <node x="" y="">werkzeug.debug.repr.DebugReprGenerator</node>
+            <node x="" y="">werkzeug.wrappers.ResponseStreamMixin</node>
+            <node x="" y="">werkzeug.datastructures.ImmutableList</node>
+            <node x="" y="">werkzeug.exceptions.RequestHeaderFieldsTooLarge</node>
+            <node x="" y="">_abcoll.Sequence</node>
+            <node x="" y="">werkzeug.exceptions.Conflict</node>
+            <node x="" y="">werkzeug.serving.BaseWSGIServer</node>
+            <node x="" y="">werkzeug.contrib.fixers.InternetExplorerFix</node>
+            <node x="" y="">werkzeug.wsgi.DispatcherMiddleware</node>
+            <node x="" y="">werkzeug.routing.BaseConverter</node>
+            <node x="" y="">werkzeug.contrib.limiter.StreamLimitMiddleware</node>
+            <node x="" y="">SocketServer.BaseServer</node>
+            <node x="" y="">werkzeug.contrib.atom.AtomFeed</node>
+            <node x="" y="">_abcoll.Sized</node>
+            <node x="" y="">werkzeug.contrib.securecookie.SecureCookie</node>
+            <node x="" y="">werkzeug.exceptions.PreconditionFailed</node>
+            <node x="" y="">werkzeug.routing.EndpointPrefix</node>
+            <node x="" y="">werkzeug.datastructures.Headers</node>
+            <node x="" y="">werkzeug.exceptions.HTTPException</node>
+            <node x="" y="">werkzeug.utils.header_property</node>
+            <node x="" y="">BaseHTTPServer.HTTPServer</node>
+            <node x="" y="">werkzeug.utils.environ_property</node>
+            <node x="" y="">werkzeug.contrib.fixers.CGIRootFix</node>
+            <node x="" y="">werkzeug.datastructures.ImmutableHeadersMixin</node>
+            <node x="" y="">werkzeug.wrappers.UserAgentMixin</node>
+            <node x="" y="">werkzeug.test.EnvironBuilder</node>
+            <node x="" y="">werkzeug.routing.UUIDConverter</node>
+            <node x="" y="">werkzeug._reloader.StatReloaderLoop</node>
+            <node x="" y="">object</node>
+            <node x="" y="">code.InteractiveInterpreter</node>
+            <node x="" y="">werkzeug.routing.RequestAliasRedirect</node>
+            <node x="" y="">werkzeug.exceptions.RequestTimeout</node>
+            <node x="" y="">werkzeug.local.LocalStack</node>
+            <node x="" y="">werkzeug.urls.BytesURL</node>
+            <node x="" y="">werkzeug.datastructures.CharsetAccept</node>
+            <node x="" y="">werkzeug.debug.tbtools.Line</node>
+            <node x="" y="">werkzeug.test.Client</node>
+            <node x="" y="">werkzeug.contrib.sessions.SessionStore</node>
+            <node x="" y="">werkzeug.exceptions.InternalServerError</node>
+            <node x="" y="">werkzeug.datastructures.OrderedMultiDict</node>
+            <node x="" y="">werkzeug.routing.RequestRedirect</node>
+            <node x="" y="">werkzeug.contrib.fixers.HeaderRewriterFix</node>
+            <node x="" y="">werkzeug.wsgi.FileWrapper</node>
+            <node x="" y="">werkzeug.exceptions.ImATeapot</node>
+            <node x="" y="">werkzeug.utils.ImportStringError</node>
+            <node x="" y="">RuntimeWarning</node>
+            <node x="" y="">werkzeug.contrib.lint.GuardedIterator</node>
+            <node x="" y="">werkzeug.debug.console.HTMLStringO</node>
+            <node x="" y="">werkzeug.routing.ValidationError</node>
+            <node x="" y="">werkzeug.wrappers.AcceptMixin</node>
+            <node x="" y="">werkzeug.wsgi.SharedDataMiddleware</node>
+            <node x="" y="">_URLTuple</node>
+            <node x="" y="">werkzeug.exceptions.Gone</node>
+            <node x="" y="">SocketServer.TCPServer</node>
+            <node x="" y="">werkzeug.datastructures.ContentRange</node>
+            <node x="" y="">werkzeug.routing.RuleFactory</node>
+            <node x="" y="">werkzeug.datastructures.EnvironHeaders</node>
+            <node x="" y="">werkzeug.test._TestCookieHeaders</node>
+            <node x="" y="">werkzeug.exceptions.PreconditionRequired</node>
+            <node x="" y="">werkzeug.wrappers.ResponseStream</node>
+            <node x="" y="">werkzeug.contrib.cache.RedisCache</node>
+            <node x="" y="">cookielib.CookieJar</node>
+            <node x="" y="">werkzeug.exceptions.SecurityError</node>
+            <node x="" y="">werkzeug.datastructures.WWWAuthenticate</node>
+            <node x="" y="">dict</node>
+            <node x="" y="">werkzeug.exceptions.BadHost</node>
+            <node x="" y="">SocketServer.StreamRequestHandler</node>
+            <node x="" y="">werkzeug.contrib.profiler.MergeStream</node>
+            <node x="" y="">werkzeug.datastructures.HeaderSet</node>
+            <node x="" y="">werkzeug.formparser.MultiPartParser</node>
+            <node x="" y="">werkzeug.exceptions.TooManyRequests</node>
+            <node x="" y="">werkzeug.contrib.iterio.IterIO</node>
+            <node x="" y="">werkzeug.datastructures.Accept</node>
+            <node x="" y="">werkzeug.routing.UnicodeConverter</node>
+            <node x="" y="">werkzeug.wrappers.ETagResponseMixin</node>
+            <node x="" y="">werkzeug.routing.Rule</node>
+            <node x="" y="">werkzeug.routing.IntegerConverter</node>
+            <node x="" y="">_abcoll.Iterator</node>
+            <node x="" y="">werkzeug._reloader.WatchdogReloaderLoop</node>
+            <node x="" y="">werkzeug.contrib.lint.WSGIWarning</node>
+            <node x="" y="">werkzeug.datastructures.LanguageAccept</node>
+            <node x="" y="">werkzeug.contrib.atom.FeedEntry</node>
+            <node x="" y="">SocketServer.BaseRequestHandler</node>
+            <node x="" y="">werkzeug.debug._ConsoleFrame</node>
+            <node x="" y="">werkzeug.utils.ArgumentValidationError</node>
+            <node x="" y="">werkzeug.wrappers.AuthorizationMixin</node>
+            <node x="" y="">werkzeug.wrappers.BaseResponse</node>
+            <node x="" y="">werkzeug.routing.AnyConverter</node>
+            <node x="" y="">werkzeug.datastructures.ImmutableMultiDictMixin</node>
+            <node x="" y="">werkzeug.exceptions.UnprocessableEntity</node>
+            <node x="" y="">werkzeug.datastructures.ImmutableTypeConversionDict</node>
+            <node x="" y="">werkzeug.contrib.sessions.SessionMiddleware</node>
+            <node x="" y="">_abcoll.Callable</node>
+            <node x="" y="">werkzeug._internal._DictAccessorProperty</node>
+            <node x="" y="">werkzeug.exceptions.UnsupportedMediaType</node>
+            <node x="" y="">werkzeug.wsgi.ClosingIterator</node>
+            <node x="" y="">werkzeug.exceptions.ServiceUnavailable</node>
+            <node x="" y="">werkzeug.wrappers.StreamOnlyMixin</node>
+            <node x="" y="">werkzeug.urls.Href</node>
+            <node x="" y="">werkzeug.datastructures._omd_bucket</node>
+            <node x="" y="">_abcoll.Hashable</node>
+            <node x="" y="">werkzeug.serving.ForkingWSGIServer</node>
+            <node x="" y="">werkzeug.useragents.UserAgentParser</node>
+            <node x="" y="">StandardError</node>
+            <node x="" y="">werkzeug.datastructures.ImmutableDictMixin</node>
+            <node x="" y="">werkzeug.datastructures.MultiDict</node>
+            <node x="" y="">werkzeug.contrib.lint.ErrorStream</node>
+            <node x="" y="">werkzeug.debug.console._ConsoleLoader</node>
+            <node x="" y="">werkzeug.exceptions.NotFound</node>
+            <node x="" y="">ValueError</node>
+            <node x="" y="">werkzeug.serving.ForkingMixIn</node>
+            <node x="" y="">werkzeug.local.Local</node>
+            <node x="" y="">werkzeug.contrib.lint.LintMiddleware</node>
+            <node x="" y="">BaseHTTPServer.BaseHTTPRequestHandler</node>
+            <node x="" y="">werkzeug.contrib.wrappers.DynamicCharsetResponseMixin</node>
+            <node x="" y="">werkzeug.datastructures.ImmutableListMixin</node>
+            <node x="" y="">werkzeug.datastructures.MIMEAccept</node>
+            <node x="" y="">ModuleType</node>
+            <node x="" y="">werkzeug.serving.ThreadedWSGIServer</node>
+            <node x="" y="">werkzeug.urls.URL</node>
+            <node x="" y="">werkzeug.datastructures.ImmutableDict</node>
+            <node x="" y="">werkzeug.exceptions.HTTPVersionNotSupported</node>
+            <node x="" y="">werkzeug.formparser.FormDataParser</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="28295.0" y="1406.1666666666665" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/werkzeug/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/flask/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.098086126">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#F:/FlaskBlog/app/run.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#F:/FlaskBlog/app/run.py</OriginalElement>
+          <nodes>
+            <node x="" y="">_abcoll.Hashable</node>
+            <node x="" y="">object</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.813265306122449" x="790.7678795483062" y="471.543287327478" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/1517302078/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6447368">
+          <caret line="3881" column="66" selection-start-line="3881" selection-start-column="4" selection-end-line="3881" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/flask/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="849" column="24" selection-start-line="849" selection-start-column="24" selection-end-line="849" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/flask/wrappers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="e#223#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#32#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="12.314593">
+          <caret line="355" column="33" selection-start-line="355" selection-start-column="33" selection-end-line="355" selection-end-column="33" />
+          <folding>
+            <element signature="e#219#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/werkzeug/wrappers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325359">
+          <caret line="1815" column="6" selection-start-line="1815" selection-start-column="6" selection-end-line="1815" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.605263">
+          <caret line="119" column="21" selection-start-line="119" selection-start-column="21" selection-end-line="119" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.2715311">
+          <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
           <folding>
             <element signature="e#35#60#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41854638">
-          <caret line="105" column="14" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>

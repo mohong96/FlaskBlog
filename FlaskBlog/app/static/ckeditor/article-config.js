@@ -85,5 +85,4 @@ CKEDITOR.editorConfig = function( config ) {
 
             //图片上传至路由地址
             config.filebrowserImageUploadUrl = '/imageUpload'
-
 };
