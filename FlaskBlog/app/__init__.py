@@ -8,7 +8,7 @@ from config import SQLALCHEMY_TRACK_MODIFICATIONS,SQLALCHEMY_COMMIT_ON_TEARDOWN,
 
 
 #--创建Flask核心实例--
-appweb = Flask(__name__,static_folder='static'and'imm')
+appweb = Flask(__name__)
 
 #--导入配置文件--
 appweb.config['SECRET_KEY'] = 'dhl19960203'

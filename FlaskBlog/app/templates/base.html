@@ -8,7 +8,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="pragma" content="no-store">
     <title>Avalon</title>
 
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
@@ -17,11 +16,8 @@
     <!-- 新 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="../static/dist/css/bootstrap.min.css">
 
-    <!-- 可选的Bootstrap主题文件（一般不用引入） -->
-    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
-
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="../static/dist/js/bootstrap.min.js"></script>
     <!--ckeditor base js-->
     <script src="../static/ckeditor/ckeditor.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -108,7 +104,7 @@
     <!--ckeditor-->
         <div class="container-fluid">
             <div class="row">
-        <form class="col-lg-8 col-md-8">
+        <form action="/articleUpload" class="col-lg-8 col-md-8" method="post">
             <textarea name="editor1" id="editor1" rows="10" cols="80">
                 This is my textarea to be replaced with CKEditor.
             </textarea>
@@ -118,6 +114,8 @@
                 // 由于ckeditor自动连接它的js文件，因此路径在/ckeditor路径下
                 CKEDITOR.replace( 'editor1',{customConfig: 'article-config.js'});
             </script>
+            <br>
+            <input class="btn btn-primary btn-large" type="submit" value="提交文章">
         </form>
             </div>
         </div>
@@ -125,6 +123,7 @@
         <div id="footer">
             <p class="modal-footer">&copy;Dylan's Blog.Code:python</p>
         </div>
+
 
     </footer>
   </body>

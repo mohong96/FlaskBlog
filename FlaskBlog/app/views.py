@@ -1,10 +1,8 @@
 #coding:utf-8
 #文件说明：定义网站视图函数的文件
 
-
-
 from app import appweb,db
-from flask import render_template,url_for,session,redirect,request
+from flask import render_template,url_for,session,redirect,request,flash
 import os.path,time
 
 @appweb.route('/base')
@@ -53,3 +51,16 @@ def imageUpload():
         response = appweb.make_response(res)
         response.headers["Content-Type"] = 'text/html'
         return response
+
+#保存文章的视图函数
+@appweb.route('/articleUpload',methods=['POST'])
+def articleUpload():
+    if request.method == 'POST' and request.form['editor1'] is not None:
+        article = request.form['editor1']
+        article_name = imageName()+'.text'
+        article_path = os.path.join(appweb.static_folder,'article',article_name)
+        article_file = open(article_path,'w+')
+        article_file.write(article.encode('utf-8'))
+        article_file.close()
+        print('Done')
+        return redirect('/base')
