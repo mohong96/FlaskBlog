@@ -23,4 +23,4 @@ appweb.config['SQLALCHEMY_MIGRATE_REPO'] = SQLALCHEMY_MIGRATE_REPO
 db = SQLAlchemy(appweb)
 
 # --在初始化时导入视图，否则网站视图无应答--
-from app import views,models
+from . import views,models

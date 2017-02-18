@@ -43,88 +43,59 @@
           <a class="navbar-brand">Dylan's Home</a>
         </div>
         <!--TODO:添加导航按钮的链接网址-->
+          <!--此处同理，没有使用反向代理nginx，点击的地址对应的静态页面，
+          也是通过flask程序返回的，需要在视图函数中注册地址，href中填入视图函数注册的地址-->
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">home</a> </li>
-              <li><a href="#">project</a></li>
-              <li><a href="#">article</a></li>
-              <li><a href="#">note</a></li>
+              <li><a href="home">home</a> </li>
+              <li><a href="project">project</a></li>
+              <li><a href="article">article</a></li>
           </ul>
       </div><!-- /.container-fluid -->
     </nav>
 
-    <!--project-->
-    <!--{% block content %}-->
-        <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 col-md-offset-1 col-md-7 col-lg-offset-1 col-lg-7">
-                <section class="thumbnail">
-                    <article class="page-header">
-                        <div class="row">
-                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12"><h2 class="text-center">page header</h2></div>
-                            <div class="col-lg-2 col-md-2 col-sm-2 img-thumbnail">
-                                2017/1/1<br/>
-                            </div>
-                        </div>
-                    </article>
-                    <p><a href="#" class="btn btn-primary" role="button">read it</a></p>
-                </section>
-<!--TODO:待定
-                <div class="thumbnail">
-                    <div class="page-header"><a href="#"><img data-src="holder.js/300x300" src="../static/images/pic03.jpg"></a></div>
-                    <h5>...</h5>
-                    <p><a href="#" class="btn btn-primary" role="button">read it</a></p>
-                </div>
--->
-            </div>
-            <div class="col-xs-12 col-lg-3 col-md-3 thumbnail" style="background-color:white">
-                <section>
-                    <h1>Heading</h1>
-                    <p>Tagline</p>
-                    <p><a class="btn btn-primary btn-large">Learn more</a></p>
-                </section>
-            </div>
-        </div>
-        </div>
-    <!--{% endblock %}-->
-
-    <!--note-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-8 col-md-8">
-                    <section class="thumbnail">
-
-                        <h4>不要和其他组件混合使用</h4>
-                        <p>sss</p>
-
-                    </section>
-                </div>
-            </div>
-        </div>
+    {% block content %}
 
     <!--ckeditor-->
         <div class="container-fluid">
             <div class="row">
-        <form action="/articleUpload" class="col-lg-8 col-md-8" method="post">
-            <textarea name="editor1" id="editor1" rows="10" cols="80">
+            <form action="/articleUpload" class="col-lg-8 col-md-8" method="post">
+            <textarea name="editor1" id="editor1" rows="1 cols="80">
                 This is my textarea to be replaced with CKEditor.
             </textarea>
             <script>
                 // Replace the <textarea id="editor1"> with a CKEditor
                 // instance, using the custom config
                 // 由于ckeditor自动连接它的js文件，因此路径在/ckeditor路径下
-                CKEDITOR.replace( 'editor1',{customConfig: 'article-config.js'});
+                // 我们在此处把ckeditor编辑器赋给一个变量editor，方便后面操作ckeditor编辑器实例
+                var editor=CKEDITOR.replace( 'editor1',{customConfig: 'article-config.js'});
+                function submitit()
+                    {
+                        var head="<head>"+editor.document.getHead().getHtml()+"</head>";
+                        var body="<body>"+editor.document.getBody().getHtml()+"</body>";
+                        var oldcontent = CKEDITOR.instances.editor.getData();
+                        if (oldcontent == ''){
+                            alert('请输入文章内容');
+                            return false;
+                            //return false 停止提交表单
+                        }
+                        var newcontent = "<html>"+head+body+"</html>";
+                        CKEDITOR.instances.editor.setData(newcontent);
+                        return true;
+                        //return true 也就是让按钮继续完成工作，因为按钮type=submit，因此会继续，提交表单内容
+                        //表单的提交，关键就是type=submit，这个类型，就会被认作提交功能
+                    }
             </script>
             <br>
-            <input class="btn btn-primary btn-large" type="submit" value="提交文章">
-        </form>
+            <input title="-_-" class="btn btn-primary btn-large" type="submit" onclick="submitit()" value="提交文章">
+            </form>
             </div>
         </div>
+    {% endblock %}
+    <!--footer-->
     <footer>
         <div id="footer">
             <p class="modal-footer">&copy;Dylan's Blog.Code:python</p>
         </div>
-
-
     </footer>
   </body>
 </html>

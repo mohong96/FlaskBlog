@@ -1,1 +1,25 @@
 {% extends "base.html" %}
+
+
+
+
+{% block content %}
+<div class="container-fluid col-lg-8 col-md-8">
+    <!--thumbnail分一个新的div写，否则最左边没有空白部分-->
+        <ul class="list-group">
+                <li class="list-group-item">
+                    <a href=""
+                </li>
+                <li class="list-group-item">wwww</li>
+        </ul>
+{#        <!--注意此处，不能使用showArticle.html，并不是因为路径问题，而是#}
+{#        iframe中内嵌网页，而在flask中，会变成IP:端口/showArticle,也就是访问地址#}
+{#        需要在视图函数中先注册这个地址，#}
+{#        因为我们此处没有使用反向代理，静态网页也是通过flask的程序处理返回的#}
+{#        也就是视图函数处理返回的-->#}
+{#        <iframe src="showArticle" width="100%" height="400"#}
+{#               frameborder="0">#}
+{#            oh,the page fly away!#}
+{#        </iframe>#}
+</div>
+{% endblock %}
