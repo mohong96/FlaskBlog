@@ -4,97 +4,105 @@
 	started at 2016/10
     -->
 <html lang="zh-cn" xmlns="http://www.w3.org/1999/html">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Avalon</title>
 
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Avalon</title>
 
-    <!-- 新 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="../static/dist/css/bootstrap.min.css">
+        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"> </script>
+        <!--最新的Bootstrap 核心 CSS 文件-->
+        <link href="../static/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--博客css-->
+        <link href="https://v3.bootcss.com/examples/blog/blog.css" rel="stylesheet">
+        <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+        <script src="../static/dist/js/bootstrap.min.js"></script>
+        <!--ckeditor base js-->
+        <script src="../static/ckeditor/ckeditor.js"></script>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
 
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script src="../static/dist/js/bootstrap.min.js"></script>
-    <!--ckeditor base js-->
-    <script src="../static/ckeditor/ckeditor.js"></script>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+        {% block ckeditor_head %}
+        {#  复制加入ckeditor中head的css代码，使得显示文章和写文章的页面一模一样  #}
+        <style data-cke-temp="1">html{cursor:text;*cursor:auto}
 
-  <body style="background-color: gainsboro">
-    <!--导航条-->
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        img,input,textarea{cursor:default}</style><link type="text/css" rel="stylesheet" href="https://cdn.ckeditor.com/4.6.1/standard-all/contents.css"><link type="text/css" rel="stylesheet" href="../static/ckeditor/article-style.css"><style data-cke-temp="1">.cke_editable{cursor:text}.cke_editable img,.cke_editable input,.cke_editable textarea{cursor:default}
+
+        .cke_contents_ltr a.cke_anchor,.cke_contents_ltr a.cke_anchor_empty,.cke_editable.cke_contents_ltr a[name],.cke_editable.cke_contents_ltr a[data-cke-saved-name]{background:url(http://127.0.0.1:5000/static/ckeditor/plugins/link/images/anchor.png?t=GB8C) no-repeat left center;border:1px dotted #00f;background-size:16px;padding-left:18px;cursor:auto;}.cke_contents_ltr img.cke_anchor{background:url(http://127.0.0.1:5000/static/ckeditor/plugins/link/images/anchor.png?t=GB8C) no-repeat left center;border:1px dotted #00f;background-size:16px;width:16px;min-height:15px;height:1.15em;vertical-align:text-bottom;}.cke_contents_rtl a.cke_anchor,.cke_contents_rtl a.cke_anchor_empty,.cke_editable.cke_contents_rtl a[name],.cke_editable.cke_contents_rtl a[data-cke-saved-name]{background:url(http://127.0.0.1:5000/static/ckeditor/plugins/link/images/anchor.png?t=GB8C) no-repeat right center;border:1px dotted #00f;background-size:16px;padding-right:18px;cursor:auto;}.cke_contents_rtl img.cke_anchor{background:url(http://127.0.0.1:5000/static/ckeditor/plugins/link/images/anchor.png?t=GB8C) no-repeat right center;border:1px dotted #00f;background-size:16px;width:16px;min-height:15px;height:1.15em;vertical-align:text-bottom;}
+
+        .cke_show_borders  table.cke_show_border,.cke_show_borders  table.cke_show_border > tr > td, .cke_show_borders  table.cke_show_border > tr > th,.cke_show_borders  table.cke_show_border > tbody > tr > td, .cke_show_borders  table.cke_show_border > tbody > tr > th,.cke_show_borders  table.cke_show_border > thead > tr > td, .cke_show_borders  table.cke_show_border > thead > tr > th,.cke_show_borders  table.cke_show_border > tfoot > tr > td, .cke_show_borders  table.cke_show_border > tfoot > tr > th{border : #d3d3d3 1px dotted}
+
+        .cke_upload_uploading img{opacity: 0.3}
+
+        {# 额外加上此句使得图片超过屏幕宽度时，缩小，高度等比例缩小，小于屏幕宽度时，显示原图尺寸 #}
+        img{height:auto;max-width:100%;}
+
+        .cke_image_nocaption{line-height:0}.cke_editable.cke_image_sw, .cke_editable.cke_image_sw *{cursor:sw-resize !important}.cke_editable.cke_image_se, .cke_editable.cke_image_se *{cursor:se-resize !important}.cke_image_resizer{display:none;position:absolute;width:10px;height:10px;bottom:-5px;right:-5px;background:#000;outline:1px solid #fff;line-height:0;cursor:se-resize;}.cke_image_resizer_wrapper{position:relative;display:inline-block;line-height:0;}.cke_image_resizer.cke_image_resizer_left{right:auto;left:-5px;cursor:sw-resize;}.cke_widget_wrapper:hover .cke_image_resizer,.cke_image_resizer.cke_image_resizing{display:block}.cke_widget_wrapper>a{display:inline-block}
+
+        .cke_widget_wrapper{position:relative;outline:none}.cke_widget_inline{display:inline-block}.cke_widget_wrapper:hover>.cke_widget_element{outline:2px solid yellow;cursor:default}.cke_widget_wrapper:hover .cke_widget_editable{outline:2px solid yellow}.cke_widget_wrapper.cke_widget_focused>.cke_widget_element,.cke_widget_wrapper .cke_widget_editable.cke_widget_editable_focused{outline:2px solid #ace}.cke_widget_editable{cursor:text}.cke_widget_drag_handler_container{position:absolute;width:15px;height:0;display:none;opacity:0.75;transition:height 0s 0.2s;line-height:0}.cke_widget_wrapper:hover>.cke_widget_drag_handler_container{height:15px;transition:none}.cke_widget_drag_handler_container:hover{opacity:1}img.cke_widget_drag_handler{cursor:move;width:15px;height:15px;display:inline-block}.cke_widget_mask{position:absolute;top:0;left:0;width:100%;height:100%;display:block}.cke_editable.cke_widget_dragging, .cke_editable.cke_widget_dragging *{cursor:move !important}</style>
+        {% endblock %}
+    </head>
+  <body>
+    <!--响应式导航条-->
+    <div id="nav" class="navbar navbar-inverse" role="navigation">
       <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>x
           </button>
-          <a class="navbar-brand">Dylan's Home</a>
+          <a class="navbar-brand">Dylan's Blog</a>
         </div>
         <!--TODO:添加导航按钮的链接网址-->
           <!--此处同理，没有使用反向代理nginx，点击的地址对应的静态页面，
           也是通过flask程序返回的，需要在视图函数中注册地址，href中填入视图函数注册的地址-->
+          <ul class="nav navbar-nav navbar-left">
+              <!--<li><a href="project">project</a></li>-->
+              <li><a href="{{ url_for('article') }}">Article</a></li>
+          </ul>
           <ul class="nav navbar-nav navbar-right">
-              <li><a href="home">home</a> </li>
-              <li><a href="project">project</a></li>
-              <li><a href="article">article</a></li>
+{#              TODO:current_user的用法和原理可以搞清楚一下，尚未解决current_user的异常问题#}
+              {% if current_user.is_authenticated %}
+                <!--url_for实际是以路由函数作为参数-->
+                <li><a href="{{ url_for('writeit') }}">Write</a></li>
+                <li><a href="{{ url_for('logout') }}">Logout</a></li>
+              {% else %}
+                <li><a href="{{ url_for('login') }}">Login</a></li>
+              {% endif %}
           </ul>
       </div><!-- /.container-fluid -->
-    </nav>
+    </div>
 
-    {% block content %}
-
-    <!--ckeditor-->
-        <div class="container-fluid">
-            <div class="row">
-            <form action="/articleUpload" class="col-lg-8 col-md-8" method="post">
-            <textarea name="editor1" id="editor1" rows="1 cols="80">
-                This is my textarea to be replaced with CKEditor.
-            </textarea>
-            <script>
-                // Replace the <textarea id="editor1"> with a CKEditor
-                // instance, using the custom config
-                // 由于ckeditor自动连接它的js文件，因此路径在/ckeditor路径下
-                // 我们在此处把ckeditor编辑器赋给一个变量editor，方便后面操作ckeditor编辑器实例
-                var editor=CKEDITOR.replace( 'editor1',{customConfig: 'article-config.js'});
-                function submitit()
-                    {
-                        var head="<head>"+editor.document.getHead().getHtml()+"</head>";
-                        var body="<body>"+editor.document.getBody().getHtml()+"</body>";
-                        var oldcontent = CKEDITOR.instances.editor.getData();
-                        if (oldcontent == ''){
-                            alert('请输入文章内容');
-                            return false;
-                            //return false 停止提交表单
-                        }
-                        var newcontent = "<html>"+head+body+"</html>";
-                        CKEDITOR.instances.editor.setData(newcontent);
-                        return true;
-                        //return true 也就是让按钮继续完成工作，因为按钮type=submit，因此会继续，提交表单内容
-                        //表单的提交，关键就是type=submit，这个类型，就会被认作提交功能
-                    }
-            </script>
-            <br>
-            <input title="-_-" class="btn btn-primary btn-large" type="submit" onclick="submitit()" value="提交文章">
-            </form>
-            </div>
+    <!--接受渲染flash消息-->
+    <div class = "container-fluid col-xs-12 col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6">
+            <!--使用for循环保证多个flash消息都能显示出，但flash中若有中文乱码了则会造成程序崩溃-->
+        {% for message in get_flashed_messages() %}
+        <div class="alert alert-warning">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{ message }}
         </div>
+        {% endfor %}
+    </div>
+
+    <!--自定义正文部分-->
+    <div class="container-fluid">
+    {% block content %}
+        {# 自定义部分 #}
     {% endblock %}
+    </div>
+
     <!--footer-->
     <footer>
-        <div id="footer">
-            <p class="modal-footer">&copy;Dylan's Blog.Code:python</p>
+        <div id="footer" class="container-fluid col-md-12 col-lg-12 col-xs-12">
+            <p class="text-center">&copy;Dylan's Blog.Code:python</p>
         </div>
     </footer>
   </body>

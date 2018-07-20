@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head><title data-cke-title="所见即所得编辑器, editor1">所见即所得编辑器, editor1</title><style data-cke-temp="1">html{cursor:text;*cursor:auto}
+{% extends 'base.html' %}
+{% block ckeditor_head %}
+{#  复制加入ckeditor中head的css代码，使得显示文章和写文章的页面一模一样  #}
+<style data-cke-temp="1">html{cursor:text;*cursor:auto}
 
 img,input,textarea{cursor:default}</style><link type="text/css" rel="stylesheet" href="https://cdn.ckeditor.com/4.6.1/standard-all/contents.css"><link type="text/css" rel="stylesheet" href="../static/ckeditor/article-style.css"><style data-cke-temp="1">.cke_editable{cursor:text}.cke_editable img,.cke_editable input,.cke_editable textarea{cursor:default}
 
@@ -10,7 +11,59 @@ img,input,textarea{cursor:default}</style><link type="text/css" rel="stylesheet"
 
 .cke_upload_uploading img{opacity: 0.3}
 
+{# 额外加上此句使得图片超过屏幕宽度时，缩小，高度等比例缩小，小于屏幕宽度时，显示原图尺寸 #}
+img{height:auto;max-width:100%;}
+
 .cke_image_nocaption{line-height:0}.cke_editable.cke_image_sw, .cke_editable.cke_image_sw *{cursor:sw-resize !important}.cke_editable.cke_image_se, .cke_editable.cke_image_se *{cursor:se-resize !important}.cke_image_resizer{display:none;position:absolute;width:10px;height:10px;bottom:-5px;right:-5px;background:#000;outline:1px solid #fff;line-height:0;cursor:se-resize;}.cke_image_resizer_wrapper{position:relative;display:inline-block;line-height:0;}.cke_image_resizer.cke_image_resizer_left{right:auto;left:-5px;cursor:sw-resize;}.cke_widget_wrapper:hover .cke_image_resizer,.cke_image_resizer.cke_image_resizing{display:block}.cke_widget_wrapper>a{display:inline-block}
 
-.cke_widget_wrapper{position:relative;outline:none}.cke_widget_inline{display:inline-block}.cke_widget_wrapper:hover>.cke_widget_element{outline:2px solid yellow;cursor:default}.cke_widget_wrapper:hover .cke_widget_editable{outline:2px solid yellow}.cke_widget_wrapper.cke_widget_focused>.cke_widget_element,.cke_widget_wrapper .cke_widget_editable.cke_widget_editable_focused{outline:2px solid #ace}.cke_widget_editable{cursor:text}.cke_widget_drag_handler_container{position:absolute;width:15px;height:0;display:none;opacity:0.75;transition:height 0s 0.2s;line-height:0}.cke_widget_wrapper:hover>.cke_widget_drag_handler_container{height:15px;transition:none}.cke_widget_drag_handler_container:hover{opacity:1}img.cke_widget_drag_handler{cursor:move;width:15px;height:15px;display:inline-block}.cke_widget_mask{position:absolute;top:0;left:0;width:100%;height:100%;display:block}.cke_editable.cke_widget_dragging, .cke_editable.cke_widget_dragging *{cursor:move !important}</style></head><body><p><br></p><div tabindex="-1" contenteditable="false" data-cke-widget-wrapper="1" data-cke-filter="off" class="cke_widget_wrapper cke_widget_block cke_widget_image" data-cke-display-name="图像" data-cke-widget-id="0" role="region" aria-label=" 图像 widget" style="float: right;"><figure class="image cke_widget_element" data-cke-widget-keep-attr="0" data-widget="image" data-cke-widget-data="%7B%22hasCaption%22%3Atrue%2C%22src%22%3A%22http%3A%2F%2F127.0.0.1%3A5000%2Fstatic%2Fupload%2F20170214153715.jpg%22%2C%22alt%22%3A%22%22%2C%22width%22%3A%22431%22%2C%22height%22%3A%22226%22%2C%22lock%22%3Atrue%2C%22align%22%3A%22right%22%2C%22classes%22%3A%7B%7D%7D"><span class="cke_image_resizer_wrapper"><img alt="" height="226" data-cke-saved-src="http://127.0.0.1:5000/static/upload/20170214153715.jpg" src="http://127.0.0.1:5000/static/upload/20170214153715.jpg" width="431" data-cke-widget-upcasted="1"><span class="cke_image_resizer cke_image_resizer_left" title="点击并拖拽以改变尺寸">​</span></span><figcaption contenteditable="true" data-cke-widget-editable="caption" data-cke-enter-mode="2" data-cke-filter="67" class="cke_widget_editable" data-cke-display-name="标题"><strong>标题</strong></figcaption></figure><span class="cke_reset cke_widget_drag_handler_container" style="background: url(&quot;http://127.0.0.1:5000/static/ckeditor/plugins/widget/images/handle.png&quot;) rgba(220, 220, 220, 0.498039); top: -5px; left: 20px; display: block;"><img class="cke_reset cke_widget_drag_handler" data-cke-widget-drag-handler="1" src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" width="15" title="点击并拖拽以移动" height="15" role="presentation"></span></div><p><strong>This is my textarea to be replaced with CKEditor</strong></p><p><strong>.啊实打实的</strong></p><p><br></p><p><strong>阿斯顿阿斯顿</strong></p><p><strong>阿斯顿阿斯顿</strong></p><p><strong>阿斯顿阿斯顿</strong></p><p><strong>阿三的阿斯顿阿三d</strong></p><p><strong>阿三顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶倒萨大苏打阿斯顿阿三打算打算的</strong></p></body>
-</html>
+.cke_widget_wrapper{position:relative;outline:none}.cke_widget_inline{display:inline-block}.cke_widget_wrapper:hover>.cke_widget_element{outline:2px solid yellow;cursor:default}.cke_widget_wrapper:hover .cke_widget_editable{outline:2px solid yellow}.cke_widget_wrapper.cke_widget_focused>.cke_widget_element,.cke_widget_wrapper .cke_widget_editable.cke_widget_editable_focused{outline:2px solid #ace}.cke_widget_editable{cursor:text}.cke_widget_drag_handler_container{position:absolute;width:15px;height:0;display:none;opacity:0.75;transition:height 0s 0.2s;line-height:0}.cke_widget_wrapper:hover>.cke_widget_drag_handler_container{height:15px;transition:none}.cke_widget_drag_handler_container:hover{opacity:1}img.cke_widget_drag_handler{cursor:move;width:15px;height:15px;display:inline-block}.cke_widget_mask{position:absolute;top:0;left:0;width:100%;height:100%;display:block}.cke_editable.cke_widget_dragging, .cke_editable.cke_widget_dragging *{cursor:move !important}</style>
+{% endblock %}
+
+{% block content %}
+<!--9:3布局比例-->
+    <div class="container-fluid">
+        <!--正文-->
+            <div class="col-sm-8 blog-main">
+            {#TODO:加上显示文章标题的功能#}
+                <article class="blog-post">
+                <p><img alt="" height="240" src="../static/upload/20180131.jpg" width="320" /></p>
+                    <p>啊实打实打算</p>
+
+
+{#        <!--注意此处，不能使用showArticle.html，并不是因为路径问题，而是#}
+{#        iframe中内嵌网页，而在flask中，会变成IP:端口/showArticle,也就是访问地址#}
+{#        需要在视图函数中先注册这个地址，#}
+{#        因为我们此处没有使用反向代理，静态网页也是通过flask的程序处理返回的#}
+{#        也就是视图函数处理返回的-->#}
+{#        <iframe src="showArticle" width="100%" height="400"#}
+{#               frameborder="0">#}
+{#            oh,the page fly away!#}
+{#        </iframe>#}
+                </article>
+            </div>
+            <!--文章列表-->
+            <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+                <div class="sidebar-module sidebar-module-inset">
+                    <h4>相关</h4>
+                    <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                </div>
+                <div class="sidebar-module">
+                    <h4>文章</h4>
+                    <ol class="list-unstyled">
+                      <li><a href="#">March 2014</a></li>
+                      <li><a href="#">February 2014</a></li>
+                      <li><a href="#">January 2014</a></li>
+                      <li><a href="#">December 2013</a></li>
+                      <li><a href="#">November 2013</a></li>
+                      <li><a href="#">October 2013</a></li>
+                      <li><a href="#">September 2013</a></li>
+                      <li><a href="#">August 2013</a></li>
+                      <li><a href="#">July 2013</a></li>
+                      <li><a href="#">June 2013</a></li>
+                      <li><a href="#">May 2013</a></li>
+                      <li><a href="#">April 2013</a></li>
+                    </ol>
+                </div>
+            </div>
+    </div>
+{% endblock %}

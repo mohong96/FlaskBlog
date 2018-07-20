@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+    {% block content %}
+
+    <!--ckeditor-->
+        <div class="container-fluid col-lg-offset-2 col-md-offset-2 col-xs-12">
+            <div class="row">
+            <form action="/articleUpload" class="col-lg-8 col-md-8" method="post"><!--articleUpload函数对应view.py中的函数-->
+            <!--标题-->
+            <label class="h4">文章标题</label>
+            <input type="text" class="form-control" name="title1" id="title1" placeholder="请输入标题">
+            <p class="container-fluid"></p><!--空一行间隔-->
+            <p class="container-fluid"></p><!--空一行间隔-->
+            <!--正文-->
+            <textarea name="editor1" id="editor1" rows="1 cols="80"></textarea>
+
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using the custom config
+                // 由于ckeditor自动连接它的js文件，因此路径在/ckeditor路径下
+                // 我们在此处把ckeditor编辑器赋给一个变量editor，方便后面操作ckeditor编辑器实例
+                var editor=CKEDITOR.replace( 'editor1',{customConfig: 'article-config.js'});
+                function submitit()
+                    {
+                        var head="<head>"+editor.document.getHead().getHtml()+"</head>";
+                        var body="<body>"+editor.document.getBody().getHtml()+"</body>";
+                        var oldcontent = CKEDITOR.instances.editor.getData();
+                        if (oldcontent == ''){
+                            alert('请输入文章内容');
+                            return false;
+                            //return false 停止提交表单
+                        }
+                        var newcontent = "<html>"+head+body+"</html>";
+                        CKEDITOR.instances.editor.setData(newcontent);
+                        return true;
+                        //return true 也就是让按钮继续完成工作，因为按钮type=submit，因此会继续，提交表单内容
+                        //表单的提交，关键就是type=submit，这个类型，就会被认作提交功能
+                    }
+            </script>
+            <br>
+            <input title="-_-" class="btn btn-primary btn-large" type="submit" onclick="submitit()" value="提交文章">
+            </form>
+            </div>
+        </div>
+    {% endblock %}
